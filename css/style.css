@@ -1,4 +1,77 @@
-h2 {
-	color: cyan;
-	font-size: 46px;
+header {
+	background-color: cyan;
+	padding: 10px 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
 }
+
+.container {
+/*	border: 1px solid black;*/
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-size: 42px;
+	color: hotpink;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 100px;
+}
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+li {
+	display: inline-block;
+	margin-right: 40px;
+}
+.s-1 {
+	margin-top: 62px;
+}
+.mshobeli {
+	width: 500px;
+	height: 500px;
+	background-color: lightpink;
+	position: relative;
+	top: 100px;
+	left: 100px;
+	z-index: 5;
+	border-radius: 5px;
+}
+
+.shvili {
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	position: absolute;
+	z-index: 1000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+
+.s-2 {
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+.card {
+/*	border: 2px solid red;*/
+	display: inline-block;
+	position: relative;
+}
+
+h2 {
+	font-size: 28px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
